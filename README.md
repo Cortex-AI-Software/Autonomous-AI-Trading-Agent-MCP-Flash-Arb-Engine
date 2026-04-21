@@ -1,4 +1,4 @@
-# 🧠 Cortex AI: Autonomous Crypto Arbitrage Bot & Multi-Chain Scanner (v3.4 Stable)
+# 🧠 Cortex AI: Autonomous Crypto Arbitrage Bot & Multi-Chain Scanner (v3.4 Stable) 
 
 <p align="center">
   <img src="https://img.shields.io/badge/OS-Windows-blue?style=for-the-badge&logo=windows" alt="Windows">
